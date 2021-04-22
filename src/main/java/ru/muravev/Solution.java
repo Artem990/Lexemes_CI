@@ -44,7 +44,7 @@ public class Solution {
         public String toString() {
             return "Lexeme{"
                     + "type=" + type
-                    + ", value='" + value + '\'' 
+                    + ", value='" + value + '\''
                     +'}';
         }
 
@@ -172,7 +172,6 @@ public class Solution {
     }
 
     // factor - множитель выражения в скобках
-
     public static int factor (Lexeme.LexemeBuffer lexemes) {
         Lexeme lexeme = lexemes.next();
         switch (lexeme.type) {
